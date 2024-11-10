@@ -20,3 +20,7 @@ inRDD = inRDD.map(lambda l: float(l.split(',')[2]))
 topVal = inRDD.top(1)[0] #top returns a list, so we get the first element
 
 print(topVal)
+
+top3Val = inRDD.top(3) 
+for val in top3Val:
+    print(val)
