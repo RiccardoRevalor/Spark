@@ -1,0 +1,17 @@
+Scrivi uno script PySpark per analizzare un dataset di log di accesso web. L'obiettivo è calcolare metriche dettagliate relative agli utenti e alle risorse accedute.
+Hai un file di log chiamato web_logs.txt che contiene dati sugli accessi a un server web. Ogni riga del file segue il formato seguente:
+IP_ADDRESS TIMESTAMP URL STATUS_CODE RESPONSE_TIME
+es:
+192.168.0.1 2024-11-16T12:00:00 /index.html 200 500
+192.168.0.2 2024-11-16T12:01:00 /about.html 404 150
+192.168.0.1 2024-11-16T12:02:00 /contact.html 200 300
+192.168.0.3 2024-11-16T12:03:00 /index.html 200 700
+192.168.0.1 2024-11-16T12:04:00 /index.html 500 1000
+192.168.0.2 2024-11-16T12:05:00 /about.html 200 400
+192.168.0.3 2024-11-16T12:06:00 /index.html 200 600
+
+Obiettivi
+Analisi di errore: Calcola il numero di richieste non riuscite (status code >= 400) per ogni URL.
+Tempo medio di risposta: Calcola il tempo medio di risposta per ogni URL.
+Utente più attivo: Trova l'IP che ha effettuato il maggior numero di richieste.
+Top 3 risorse più lente: Trova i 3 URL con il tempo medio di risposta più alto.

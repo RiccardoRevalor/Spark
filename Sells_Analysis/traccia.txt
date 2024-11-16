@@ -1,0 +1,22 @@
+Scrivi uno script PySpark per analizzare un dataset di vendite. Dovrai lavorare con RDD per calcolare statistiche utili sui prodotti venduti.
+Hai un file CSV chiamato sales.csv che contiene i dati delle vendite. Ogni riga del file ha il seguente formato:
+ProductID,ProductName,Category,QuantitySold,Price
+
+
+ex:
+1,Smartphone,Electronics,10,500
+2,Laptop,Electronics,5,1000
+3,Tablet,Electronics,8,300
+4,Chair,Furniture,15,150
+5,Sofa,Furniture,3,800
+6,Desk,Furniture,7,400
+7,Headphones,Electronics,20,50
+8,TV,Electronics,4,1200
+9,Bed,Furniture,2,2000
+
+
+Cosa Fare
+Leggi il file sales.csv in un RDD.
+Calcola il totale delle vendite per ogni categoria. (TotalSales = QuantitySold × Price)
+Trova il prodotto con il prezzo massimo in ogni categoria.
+Salva i risultati in un file HDFS o locale.
