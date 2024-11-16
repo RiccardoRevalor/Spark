@@ -1,0 +1,10 @@
+hello 1
+world 2
+spark 3
+hadoop 4
+python 5
+data 6
+science 7
+machine 8
+learning 9
+big 10

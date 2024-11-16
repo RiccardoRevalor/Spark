@@ -24,3 +24,6 @@ print(topVal)
 top3Val = inRDD.top(3) 
 for val in top3Val:
     print(val)
+
+
+sc.stop()
