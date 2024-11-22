@@ -1,0 +1,11 @@
+ID1,Name1,Clothing,True
+ID2,Name2,Clothing,True
+ID3,Name3,Clothing,True
+ID4,Name4,Clothing,True
+ID5,Name5,Kitchen,True
+ID6,Name6,Kitchen,True
+ID7,Name7,Kitchen,True
+ID8,Name8,Kitchen,False
+ID9,Name9,Kitchen,True
+ID10,Name10,Home,True
+ID11,Name11,Home,True
